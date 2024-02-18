@@ -2,19 +2,18 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First, make sure you run golang API first. And then run the nextjs development server:
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000/task](http://localhost:3000/task) with your browser to see the result.
+Like this:
+![ongoing](result/FE-TASKLISTONGOING.PNG)
+![history](result/FE-TASKLISTHISTORY.PNG)
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 

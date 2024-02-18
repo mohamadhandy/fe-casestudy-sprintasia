@@ -1,5 +1,8 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import 'mdb-react-ui-kit/dist/css/mdb.min.css';
+import "@fortawesome/fontawesome-free/css/all.min.css";
+// import TaskList from "@/components/task/task";
 
 export default function Home() {
   return (
